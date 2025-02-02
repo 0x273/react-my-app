@@ -19,7 +19,7 @@ function SignUp(props) {
         }
         // const genderString = (gender === 1) ? "남성" : "여성";
 
-        alert(`이름 ${name}, ${gender}으로 제출되었습니다.`);
+        alert(`이름 ${name}, 성별 ${gender}으로 제출되었습니다.`);
         event.preventDefault();
     };
 
